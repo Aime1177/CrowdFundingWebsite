@@ -45,10 +45,10 @@
 </script>
 
 <template>
-    <section class="flex justify-between gap-8  text-center mx-10 mb-48">
+    <section class="flex justify-between gap-8  text-center mx-10 mb-10">
     
     <div v-for="(Campaign , index ) in Campaigns" :key="index"
-     class="w-1/4 bg-white border rounded-lg shadow-md p-4 flex
+     class="w-1/4 bg-yellow-300 border rounded-lg shadow-md p-4 flex
       flex-col justify-between mt-10  mb-10 transition duration-300 ease-out hover:scale-110 cursor-pointer ">
 
     

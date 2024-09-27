@@ -77,7 +77,7 @@
     <div>
      <button @click="showCam = ! showCam" class="px-6 py-4 bg-blue-500
       transition duration-300 ease-out hover:scale-110
-       text-white rounded-full text-xl mb-4 mt-6 ml-[700px]">Campaign Listings</button>
+       text-white rounded-full text-xl mb-4 w-[800px] mt-6 ml-[400px]">Campaign Listings</button>
     
     <section v-if="showCam" class="flex flex-wrap justify-center gap-4 text-center ">
 
